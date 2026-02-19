@@ -9,7 +9,8 @@ MODEL_PATH = os.path.join(BASE_DIR, "models", "fake_news_model.pkl")
 
 sys.path.append(SRC_PATH)
 
-from predict import load_model, predict_news
+from src.predict import load_model, predict_news
+
 
 st.set_page_config(page_title="Fake News Detector", layout="centered")
 

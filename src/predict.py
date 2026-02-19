@@ -1,5 +1,6 @@
 import pickle
-from preprocess import clean_text
+from src.preprocess import clean_text
+
 
 
 def load_model(model_path):
